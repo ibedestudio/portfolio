@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
 }
 
 header {
-    background: #35424a;
+    background: #007bff;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -14,18 +14,21 @@ header {
 
 h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 section {
     padding: 20px;
-    margin: 10px;
+    margin: 10px auto;
+    max-width: 800px;
     background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #35424a;
+    color: #007bff;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -43,29 +46,35 @@ label {
 }
 
 input, textarea {
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
 }
 
 button {
-    padding: 10px;
-    background-color: #35424a;
+    padding: 12px;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #35424a;
+    padding: 15px 0;
+    background: #007bff;
     color: #ffffff;
     position: relative;
     bottom: 0;
